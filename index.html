@@ -3,52 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fruits</title>
+    <title>Apple</title>
     <style>
-        .khongvien {
-            height: 200px;
-            width: 500px;
-            margin: 10px;
-
-        }
-        h1{
+        .container{
+            background-color: rgb(255,255,153);
+            height: 340px;
+            width: 800px;
+            border: 1px black dashed;
             display: flex;
-            justify-content: center ;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
         }
-        .content{
+        .top{
+            height: 69%;
+            width: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
         }
-        .content_left,
-        .content_right{
-            white-space: wrap;
-            width: 48%;
-            height: auto;
-            font-size: 20px;
+        .bottom{
+            height: 29%;
+            width: 99%;
+            border: 1px black dashed;
         }
-        .content_right{
+        h4{
+            margin: 5px;
+            color: rgb(159,0,0);
+        }
+        h3{
+            color: rgb(40,0,119);
+            margin: 0;
+        }
+        .top_left{
+            width: 40%;
+            height: 98%;
             display: flex;
             justify-content: center;
             align-items: center;
+            border: 1px black dashed;
+        }
+        .top_left img{
+            border: 5px black solid;
+        }
+        .top_right{
+            width: 59%;
+            height: 98%;
+            border: 1px black dashed;
+            margin-left: 2px;
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h3>Write webpage to display the screen below when opened in a browser:</h3>
-        <div class="khongvien">
-            <div class="title">
-                <h1>Fresh Fruits</h1>
+        <div class="top">
+            <div class="top_left">
+                <img src="z5988021540331_05ef9ed50d63af50a075f6645b92266e.jpg" alt="">
             </div>
-            <div class="content">
-                <div class="content_left">
-                    It has long been known that a diet that includes at least a few servings of fresh fruit every day will help keep you healthy, fit and trim.
-                </div>
-                <div class="content_right">
-                    <img src="z5988007081499_337a98d86f5df124e437b9889f38a5f4.jpg" alt="">
-                </div>
+            <div class="top_right">
+                <h3>Apples are Good for Health</h3>
             </div>
+        </div>
+        <div class="bottom">
+            <h4>Under most conditions, apple trees will set more fruit than needed for a full crop Most apple cultivars will retain this heavy set of fruit throughout the growing season resulting in small, poorly colored, low quality fruit. Thinning is the removal of a portion of the crop before it matures on the tree to increase the marketability of the remaining fruit and to reduce the biennial bearing tendency of the tree.</h4>
         </div>
     </div>
 </body>
